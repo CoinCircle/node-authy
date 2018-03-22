@@ -22,12 +22,6 @@ Require all the things
 var authy = require('authy')('APIKEY');
 ```
 
-If you want to use the sandbox for testing require this way.
-
-```javascript
-var authy = require('authy')('SANDBOX_APIKEY', 'http://sandbox-api.authy.com');
-```
-
 
 Register New User
 -----------------
